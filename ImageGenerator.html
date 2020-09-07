@@ -5,9 +5,7 @@
     <meta charset="UTF-8">
     <title>Frankenstein's Telephone - Image uploader with Chained RunwayML models</title>
     <script src="https://cdn.jsdelivr.net/npm/@runwayml/hosted-models@latest/dist/hosted-models.js"></script>
-    <script src="js/load-image-orientation.js"></script>
-	<style type="text/css">
-      	.centered-and-cropped { object-fit: cover }  
+	<style type="text/css"> 
       	.noshow { visibility: hidden }
 	</style>
 </head>
@@ -16,7 +14,7 @@
 Take or Upload a photo to start:<br>
 <input id="inp" type='file'>
 <img class="noshow" id="imgUpload" height="10">
-<img class="centered-and-cropped" id="img" height="300" src=" ">
+<img id="img" height="300" src=" ">
 
 <button id="start" onclick="deepLabModelSelfie()">Segment Image</button>
     <img id=deepLab src="../images/placeholder.png" width="300" height="300"><button id=spadeButton onclick="spadeCocoModel()">Generate new image</button><br/>
