@@ -15,7 +15,6 @@ To run this code clone it and host the models in RunwayML and insert your unique
 
 *Known Issues*
 
-* Image exif rotation is a periodic problem in the image upload. I am working on a baked in rotation solution but it is being very pesky.
 * Text entry doesn't work in iOS. - literally no idea why.
 
 If you find this helpful please drop me a line or put a credit in for J. Rosenbaum. thanks!
